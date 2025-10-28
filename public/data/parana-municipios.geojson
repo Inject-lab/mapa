@@ -1,0 +1,1743 @@
+{
+  "type": "FeatureCollection",
+  "name": "municipios_parana",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4100103",
+        "NM_MUN": "Abatiá",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-50.3089, -23.3045],
+          [-50.2845, -23.3045],
+          [-50.2845, -23.2801],
+          [-50.3089, -23.2801],
+          [-50.3089, -23.3045]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4100202",
+        "NM_MUN": "Adrianópolis",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-48.6789, -24.6234],
+          [-48.5234, -24.6234],
+          [-48.5234, -24.4567],
+          [-48.6789, -24.4567],
+          [-48.6789, -24.6234]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4100301",
+        "NM_MUN": "Agudos do Sul",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-49.3456, -25.7890],
+          [-49.2123, -25.7890],
+          [-49.2123, -25.6567],
+          [-49.3456, -25.6567],
+          [-49.3456, -25.7890]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4100400",
+        "NM_MUN": "Almirante Tamandaré",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-49.3234, -25.3456],
+          [-49.2567, -25.3456],
+          [-49.2567, -25.2789],
+          [-49.3234, -25.2789],
+          [-49.3234, -25.3456]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4100459",
+        "NM_MUN": "Altamira do Paraná",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.8901, -24.8567],
+          [-52.7234, -24.8567],
+          [-52.7234, -24.6890],
+          [-52.8901, -24.6890],
+          [-52.8901, -24.8567]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4100509",
+        "NM_MUN": "Alto Paraná",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.2345, -23.1234],
+          [-52.1678, -23.1234],
+          [-52.1678, -23.0567],
+          [-52.2345, -23.0567],
+          [-52.2345, -23.1234]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4100608",
+        "NM_MUN": "Alto Piquiri",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.2456, -24.2345],
+          [-53.1789, -24.2345],
+          [-53.1789, -24.1678],
+          [-53.2456, -24.1678],
+          [-53.2456, -24.2345]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4100707",
+        "NM_MUN": "Altônia",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.8901, -23.8567],
+          [-53.7234, -23.8567],
+          [-53.7234, -23.6890],
+          [-53.8901, -23.6890],
+          [-53.8901, -23.8567]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4100806",
+        "NM_MUN": "Alvorada do Sul",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-51.2345, -22.7890],
+          [-51.1678, -22.7890],
+          [-51.1678, -22.7223],
+          [-51.2345, -22.7223],
+          [-51.2345, -22.7890]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4100905",
+        "NM_MUN": "Amaporã",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.7890, -23.1234],
+          [-52.7223, -23.1234],
+          [-52.7223, -23.0567],
+          [-52.7890, -23.0567],
+          [-52.7890, -23.1234]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4101002",
+        "NM_MUN": "Ampére",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.4567, -25.9123],
+          [-53.3890, -25.9123],
+          [-53.3890, -25.8456],
+          [-53.4567, -25.8456],
+          [-53.4567, -25.9123]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4101051",
+        "NM_MUN": "Anahy",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.1234, -24.5678],
+          [-53.0567, -24.5678],
+          [-53.0567, -24.5011],
+          [-53.1234, -24.5011],
+          [-53.1234, -24.5678]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4101101",
+        "NM_MUN": "Andirá",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-50.2345, -23.0678],
+          [-50.1678, -23.0678],
+          [-50.1678, -23.0011],
+          [-50.2345, -23.0011],
+          [-50.2345, -23.0678]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4101150",
+        "NM_MUN": "Ângulo",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-51.8901, -23.1890],
+          [-51.8234, -23.1890],
+          [-51.8234, -23.1223],
+          [-51.8901, -23.1223],
+          [-51.8901, -23.1890]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4101200",
+        "NM_MUN": "Antonina",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-48.7123, -25.4234],
+          [-48.6456, -25.4234],
+          [-48.6456, -25.3567],
+          [-48.7123, -25.3567],
+          [-48.7123, -25.4234]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4101309",
+        "NM_MUN": "Antônio Olinto",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-50.0789, -25.7456],
+          [-50.0122, -25.7456],
+          [-50.0122, -25.6789],
+          [-50.0789, -25.6789],
+          [-50.0789, -25.7456]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4101408",
+        "NM_MUN": "Apucarana",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-51.4678, -23.5567],
+          [-51.3345, -23.5567],
+          [-51.3345, -23.4234],
+          [-51.4678, -23.4234],
+          [-51.4678, -23.5567]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4101507",
+        "NM_MUN": "Arapongas",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-51.4234, -23.4123],
+          [-51.3567, -23.4123],
+          [-51.3567, -23.3456],
+          [-51.4234, -23.3456],
+          [-51.4234, -23.4123]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4101606",
+        "NM_MUN": "Arapoti",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-49.8234, -24.1567],
+          [-49.6567, -24.1567],
+          [-49.6567, -23.9890],
+          [-49.8234, -23.9890],
+          [-49.8234, -24.1567]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4101655",
+        "NM_MUN": "Arapuã",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.1890, -23.1123],
+          [-52.1223, -23.1123],
+          [-52.1223, -23.0456],
+          [-52.1890, -23.0456],
+          [-52.1890, -23.1123]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4101705",
+        "NM_MUN": "Araruna",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.4890, -23.9345],
+          [-52.4223, -23.9345],
+          [-52.4223, -23.8678],
+          [-52.4890, -23.8678],
+          [-52.4890, -23.9345]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4101804",
+        "NM_MUN": "Araucária",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-49.4567, -25.5890],
+          [-49.3234, -25.5890],
+          [-49.3234, -25.4567],
+          [-49.4567, -25.4567],
+          [-49.4567, -25.5890]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4101853",
+        "NM_MUN": "Ariranha do Ivaí",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-51.3678, -24.2890],
+          [-51.3011, -24.2890],
+          [-51.3011, -24.2223],
+          [-51.3678, -24.2223],
+          [-51.3678, -24.2890]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4101903",
+        "NM_MUN": "Assaí",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-50.8456, -23.3678],
+          [-50.7789, -23.3678],
+          [-50.7789, -23.3011],
+          [-50.8456, -23.3011],
+          [-50.8456, -23.3678]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4102000",
+        "NM_MUN": "Assis Chateaubriand",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.5234, -24.3890],
+          [-53.3567, -24.3890],
+          [-53.3567, -24.2223],
+          [-53.5234, -24.2223],
+          [-53.5234, -24.3890]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4102109",
+        "NM_MUN": "Astorga",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-51.6567, -23.2345],
+          [-51.5890, -23.2345],
+          [-51.5890, -23.1678],
+          [-51.6567, -23.1678],
+          [-51.6567, -23.2345]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4102208",
+        "NM_MUN": "Atalaia",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.0123, -23.1234],
+          [-51.9456, -23.1234],
+          [-51.9456, -23.0567],
+          [-52.0123, -23.0567],
+          [-52.0123, -23.1234]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4102307",
+        "NM_MUN": "Balsa Nova",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-49.6345, -25.5789],
+          [-49.5678, -25.5789],
+          [-49.5678, -25.5122],
+          [-49.6345, -25.5122],
+          [-49.6345, -25.5789]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4102406",
+        "NM_MUN": "Bandeirantes",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-50.3678, -23.1123],
+          [-50.3011, -23.1123],
+          [-50.3011, -23.0456],
+          [-50.3678, -23.0456],
+          [-50.3678, -23.1123]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4102505",
+        "NM_MUN": "Barbosa Ferraz",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.0789, -24.0456],
+          [-52.0122, -24.0456],
+          [-52.0122, -23.9789],
+          [-52.0789, -23.9789],
+          [-52.0789, -24.0456]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4102604",
+        "NM_MUN": "Barra do Jacaré",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-50.3456, -23.1890],
+          [-50.2789, -23.1890],
+          [-50.2789, -23.1223],
+          [-50.3456, -23.1223],
+          [-50.3456, -23.1890]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4102703",
+        "NM_MUN": "Barracão",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.6234, -26.2567],
+          [-53.5567, -26.2567],
+          [-53.5567, -26.1890],
+          [-53.6234, -26.1890],
+          [-53.6234, -26.2567]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4102752",
+        "NM_MUN": "Bela Vista da Caroba",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.7890, -25.9123],
+          [-53.7223, -25.9123],
+          [-53.7223, -25.8456],
+          [-53.7890, -25.8456],
+          [-53.7890, -25.9123]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4102802",
+        "NM_MUN": "Bela Vista do Paraíso",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-51.1890, -22.9567],
+          [-51.1223, -22.9567],
+          [-51.1223, -22.8890],
+          [-51.1890, -22.8890],
+          [-51.1890, -22.9567]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4102901",
+        "NM_MUN": "Bituruna",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-51.5456, -26.1678],
+          [-51.4789, -26.1678],
+          [-51.4789, -26.1011],
+          [-51.5456, -26.1011],
+          [-51.5456, -26.1678]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4103008",
+        "NM_MUN": "Boa Esperança",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.8678, -24.2890],
+          [-52.8011, -24.2890],
+          [-52.8011, -24.2223],
+          [-52.8678, -24.2223],
+          [-52.8678, -24.2890]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4103024",
+        "NM_MUN": "Boa Esperança do Iguaçu",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.2789, -25.6234],
+          [-53.2122, -25.6234],
+          [-53.2122, -25.5567],
+          [-53.2789, -25.5567],
+          [-53.2789, -25.6234]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4103040",
+        "NM_MUN": "Boa Ventura de São Roque",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-50.6789, -25.1234],
+          [-50.6122, -25.1234],
+          [-50.6122, -25.0567],
+          [-50.6789, -25.0567],
+          [-50.6789, -25.1234]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4103057",
+        "NM_MUN": "Boa Vista da Aparecida",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.8234, -25.4567],
+          [-53.7567, -25.4567],
+          [-53.7567, -25.3890],
+          [-53.8234, -25.3890],
+          [-53.8234, -25.4567]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4103107",
+        "NM_MUN": "Bocaiúva do Sul",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-49.1123, -25.2345],
+          [-49.0456, -25.2345],
+          [-49.0456, -25.1678],
+          [-49.1123, -25.1678],
+          [-49.1123, -25.2345]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4103156",
+        "NM_MUN": "Bom Jesus do Sul",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.5890, -26.1789],
+          [-53.5223, -26.1789],
+          [-53.5223, -26.1122],
+          [-53.5890, -26.1122],
+          [-53.5890, -26.1789]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4103206",
+        "NM_MUN": "Bom Sucesso",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.0567, -23.7123],
+          [-51.9890, -23.7123],
+          [-51.9890, -23.6456],
+          [-52.0567, -23.6456],
+          [-52.0567, -23.7123]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4103222",
+        "NM_MUN": "Bom Sucesso do Sul",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.8456, -26.0789],
+          [-52.7789, -26.0789],
+          [-52.7789, -26.0122],
+          [-52.8456, -26.0122],
+          [-52.8456, -26.0789]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4103305",
+        "NM_MUN": "Borrazópolis",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-51.6234, -23.9345],
+          [-51.5567, -23.9345],
+          [-51.5567, -23.8678],
+          [-51.6234, -23.8678],
+          [-51.6234, -23.9345]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4103354",
+        "NM_MUN": "Braganey",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.6789, -24.0456],
+          [-52.6122, -24.0456],
+          [-52.6122, -23.9789],
+          [-52.6789, -23.9789],
+          [-52.6789, -24.0456]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4103370",
+        "NM_MUN": "Brasilândia do Sul",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.6567, -24.1234],
+          [-53.5890, -24.1234],
+          [-53.5890, -24.0567],
+          [-53.6567, -24.0567],
+          [-53.6567, -24.1234]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4103404",
+        "NM_MUN": "Cafeara",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-51.7890, -22.7890],
+          [-51.7223, -22.7890],
+          [-51.7223, -22.7223],
+          [-51.7890, -22.7223],
+          [-51.7890, -22.7890]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4103453",
+        "NM_MUN": "Cafelândia",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.3234, -24.6123],
+          [-53.2567, -24.6123],
+          [-53.2567, -24.5456],
+          [-53.3234, -24.5456],
+          [-53.3234, -24.6123]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4103479",
+        "NM_MUN": "Cafezal do Sul",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.4567, -24.6890],
+          [-53.3890, -24.6890],
+          [-53.3890, -24.6223],
+          [-53.4567, -24.6223],
+          [-53.4567, -24.6890]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4103503",
+        "NM_MUN": "Califórnia",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-51.3456, -23.6789],
+          [-51.2789, -23.6789],
+          [-51.2789, -23.6122],
+          [-51.3456, -23.6122],
+          [-51.3456, -23.6789]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4103602",
+        "NM_MUN": "Cambará",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-50.0567, -23.0234],
+          [-49.9890, -23.0234],
+          [-49.9890, -22.9567],
+          [-50.0567, -22.9567],
+          [-50.0567, -23.0234]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4103701",
+        "NM_MUN": "Cambé",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-51.2789, -23.2756],
+          [-51.2122, -23.2756],
+          [-51.2122, -23.2089],
+          [-51.2789, -23.2089],
+          [-51.2789, -23.2756]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4103800",
+        "NM_MUN": "Cambira",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-51.5789, -23.5890],
+          [-51.5122, -23.5890],
+          [-51.5122, -23.5223],
+          [-51.5789, -23.5223],
+          [-51.5789, -23.5890]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4103909",
+        "NM_MUN": "Campina da Lagoa",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.7890, -24.5890],
+          [-52.6567, -24.5890],
+          [-52.6567, -24.4567],
+          [-52.7890, -24.4567],
+          [-52.7890, -24.5890]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4104006",
+        "NM_MUN": "Campina do Simão",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-51.8456, -25.1123],
+          [-51.7789, -25.1123],
+          [-51.7789, -25.0456],
+          [-51.8456, -25.0456],
+          [-51.8456, -25.1123]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4104055",
+        "NM_MUN": "Campina Grande do Sul",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-49.0567, -25.3012],
+          [-48.9890, -25.3012],
+          [-48.9890, -25.2345],
+          [-49.0567, -25.2345],
+          [-49.0567, -25.3012]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4104105",
+        "NM_MUN": "Campo Bonito",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.4789, -25.0234],
+          [-52.4122, -25.0234],
+          [-52.4122, -24.9567],
+          [-52.4789, -24.9567],
+          [-52.4789, -25.0234]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4104204",
+        "NM_MUN": "Campo do Tenente",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-49.6456, -25.9678],
+          [-49.5789, -25.9678],
+          [-49.5789, -25.9011],
+          [-49.6456, -25.9011],
+          [-49.6456, -25.9678]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4104253",
+        "NM_MUN": "Campo Largo",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-49.5234, -25.4567],
+          [-49.3901, -25.4567],
+          [-49.3901, -25.3234],
+          [-49.5234, -25.3234],
+          [-49.5234, -25.4567]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4104303",
+        "NM_MUN": "Campo Magro",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-49.4123, -25.2890],
+          [-49.3456, -25.2890],
+          [-49.3456, -25.2223],
+          [-49.4123, -25.2223],
+          [-49.4123, -25.2890]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4104402",
+        "NM_MUN": "Campo Mourão",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.3789, -24.0456],
+          [-52.2456, -24.0456],
+          [-52.2456, -23.9123],
+          [-52.3789, -23.9123],
+          [-52.3789, -24.0456]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4104428",
+        "NM_MUN": "Cândido de Abreu",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-51.3456, -24.5678],
+          [-51.2123, -24.5678],
+          [-51.2123, -24.4345],
+          [-51.3456, -24.4345],
+          [-51.3456, -24.5678]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4104451",
+        "NM_MUN": "Candói",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.0789, -25.5678],
+          [-51.9456, -25.5678],
+          [-51.9456, -25.4345],
+          [-52.0789, -25.4345],
+          [-52.0789, -25.5678]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4104501",
+        "NM_MUN": "Cantagalo",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.3890, -25.3456],
+          [-52.3223, -25.3456],
+          [-52.3223, -25.2789],
+          [-52.3890, -25.2789],
+          [-52.3890, -25.3456]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4104600",
+        "NM_MUN": "Capanema",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.8123, -25.6789],
+          [-53.7456, -25.6789],
+          [-53.7456, -25.6122],
+          [-53.8123, -25.6122],
+          [-53.8123, -25.6789]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4104659",
+        "NM_MUN": "Capitão Leônidas Marques",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.6234, -25.4567],
+          [-53.5567, -25.4567],
+          [-53.5567, -25.3890],
+          [-53.6234, -25.3890],
+          [-53.6234, -25.4567]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4104709",
+        "NM_MUN": "Carambeí",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-50.0890, -24.9123],
+          [-50.0223, -24.9123],
+          [-50.0223, -24.8456],
+          [-50.0890, -24.8456],
+          [-50.0890, -24.9123]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4104808",
+        "NM_MUN": "Carlópolis",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-49.7234, -23.4234],
+          [-49.6567, -23.4234],
+          [-49.6567, -23.3567],
+          [-49.7234, -23.3567],
+          [-49.7234, -23.4234]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4104907",
+        "NM_MUN": "Cascavel",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.4567, -24.9567],
+          [-53.2890, -24.9567],
+          [-53.2890, -24.7890],
+          [-53.4567, -24.7890],
+          [-53.4567, -24.9567]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4105003",
+        "NM_MUN": "Castro",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-50.0123, -24.7890],
+          [-49.7890, -24.7890],
+          [-49.7890, -24.5567],
+          [-50.0123, -24.5567],
+          [-50.0123, -24.7890]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4105102",
+        "NM_MUN": "Catanduvas",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.1456, -25.2123],
+          [-53.0789, -25.2123],
+          [-53.0789, -25.1456],
+          [-53.1456, -25.1456],
+          [-53.1456, -25.2123]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4105201",
+        "NM_MUN": "Centenário do Sul",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-51.5890, -22.8234],
+          [-51.5223, -22.8234],
+          [-51.5223, -22.7567],
+          [-51.5890, -22.7567],
+          [-51.5890, -22.8234]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4105300",
+        "NM_MUN": "Cerro Azul",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-49.2567, -24.8234],
+          [-49.0890, -24.8234],
+          [-49.0890, -24.6567],
+          [-49.2567, -24.6567],
+          [-49.2567, -24.8234]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4105409",
+        "NM_MUN": "Céu Azul",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.8456, -25.1456],
+          [-53.7789, -25.1456],
+          [-53.7789, -25.0789],
+          [-53.8456, -25.0789],
+          [-53.8456, -25.1456]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4105508",
+        "NM_MUN": "Chopinzinho",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.5456, -25.8789],
+          [-52.4789, -25.8789],
+          [-52.4789, -25.8122],
+          [-52.5456, -25.8122],
+          [-52.5456, -25.8789]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4105607",
+        "NM_MUN": "Cianorte",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.6123, -23.6634],
+          [-52.5456, -23.6634],
+          [-52.5456, -23.5967],
+          [-52.6123, -23.5967],
+          [-52.6123, -23.6634]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4105706",
+        "NM_MUN": "Cidade Gaúcha",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.9456, -23.3789],
+          [-52.8789, -23.3789],
+          [-52.8789, -23.3122],
+          [-52.9456, -23.3122],
+          [-52.9456, -23.3789]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4105805",
+        "NM_MUN": "Clevelândia",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.3456, -26.4123],
+          [-52.2123, -26.4123],
+          [-52.2123, -26.2790],
+          [-52.3456, -26.2790],
+          [-52.3456, -26.4123]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4105904",
+        "NM_MUN": "Colombo",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-49.2234, -25.2890],
+          [-49.1567, -25.2890],
+          [-49.1567, -25.2223],
+          [-49.2234, -25.2223],
+          [-49.2234, -25.2890]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4106001",
+        "NM_MUN": "Colorado",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.9789, -22.7456],
+          [-52.9122, -22.7456],
+          [-52.9122, -22.6789],
+          [-52.9789, -22.6789],
+          [-52.9789, -22.7456]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4106100",
+        "NM_MUN": "Congonhinhas",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-50.6123, -23.4567],
+          [-50.5456, -23.4567],
+          [-50.5456, -23.3890],
+          [-50.6123, -23.3890],
+          [-50.6123, -23.4567]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4106209",
+        "NM_MUN": "Conselheiro Mairinck",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-50.1456, -23.4890],
+          [-50.0789, -23.4890],
+          [-50.0789, -23.4223],
+          [-50.1456, -23.4223],
+          [-50.1456, -23.4890]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4106308",
+        "NM_MUN": "Contenda",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-49.5123, -25.6789],
+          [-49.4456, -25.6789],
+          [-49.4456, -25.6122],
+          [-49.5123, -25.6122],
+          [-49.5123, -25.6789]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4106407",
+        "NM_MUN": "Corbélia",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.2890, -24.7890],
+          [-53.2223, -24.7890],
+          [-53.2223, -24.7223],
+          [-53.2890, -24.7223],
+          [-53.2890, -24.7890]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4106456",
+        "NM_MUN": "Cornélio Procópio",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-50.6456, -23.1789],
+          [-50.5789, -23.1789],
+          [-50.5789, -23.1122],
+          [-50.6456, -23.1122],
+          [-50.6456, -23.1789]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4106506",
+        "NM_MUN": "Coronel Domingos Soares",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.3123, -25.6456],
+          [-52.2456, -25.6456],
+          [-52.2456, -25.5789],
+          [-52.3123, -25.5789],
+          [-52.3123, -25.6456]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4106555",
+        "NM_MUN": "Coronel Vivida",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.5789, -25.9789],
+          [-52.5122, -25.9789],
+          [-52.5122, -25.9122],
+          [-52.5789, -25.9122],
+          [-52.5789, -25.9789]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4106803",
+        "NM_MUN": "Cruzeiro do Iguaçu",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.0456, -25.6123],
+          [-52.9789, -25.6123],
+          [-52.9789, -25.5456],
+          [-53.0456, -25.5456],
+          [-53.0456, -25.6123]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4106852",
+        "NM_MUN": "Cruzeiro do Oeste",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.0789, -23.7890],
+          [-53.0122, -23.7890],
+          [-53.0122, -23.7223],
+          [-53.0789, -23.7223],
+          [-53.0789, -23.7890]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4106902",
+        "NM_MUN": "Cruzeiro do Sul",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-51.9890, -22.8567],
+          [-51.9223, -22.8567],
+          [-51.9223, -22.7890],
+          [-51.9890, -22.7890],
+          [-51.9890, -22.8567]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4107009",
+        "NM_MUN": "Cruz Machado",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-51.3789, -26.0123],
+          [-51.2456, -26.0123],
+          [-51.2456, -25.8790],
+          [-51.3789, -25.8790],
+          [-51.3789, -26.0123]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4107108",
+        "NM_MUN": "Curitiba",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-49.3890, -25.5234],
+          [-49.1890, -25.5234],
+          [-49.1890, -25.3234],
+          [-49.3890, -25.3234],
+          [-49.3890, -25.5234]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4107207",
+        "NM_MUN": "Curiúva",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-50.4567, -24.0234],
+          [-50.3890, -24.0234],
+          [-50.3890, -23.9567],
+          [-50.4567, -23.9567],
+          [-50.4567, -24.0234]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4107256",
+        "NM_MUN": "Diamante do Norte",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-52.8567, -22.6456],
+          [-52.7890, -22.6456],
+          [-52.7890, -22.5789],
+          [-52.8567, -22.5789],
+          [-52.8567, -22.6456]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4107306",
+        "NM_MUN": "Diamante do Sul",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.4234, -25.2345],
+          [-53.3567, -25.2345],
+          [-53.3567, -25.1678],
+          [-53.4234, -25.1678],
+          [-53.4234, -25.2345]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4107355",
+        "NM_MUN": "Diamante D'Oeste",
+        "SIGLA_UF": "PR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-53.8890, -24.8567],
+          [-53.8223, -24.8567],
+          [-53.8223, -24.7890],
+          [-53.8890, -24.7890],
+          [-53.8890, -24.8567]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CD_MUN": "4107405",
+        "NM_

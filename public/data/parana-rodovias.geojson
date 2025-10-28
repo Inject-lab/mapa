@@ -1,0 +1,523 @@
+{
+  "type": "FeatureCollection",
+  "name": "rodovias_parana",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "BR-116",
+        "nome": "Rodovia Régis Bittencourt",
+        "classe": "BR",
+        "jurisdicao": "Federal"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-49.2734, -25.4278],
+          [-49.2845, -25.4389],
+          [-49.2956, -25.4500],
+          [-49.3067, -25.4611],
+          [-49.3178, -25.4722],
+          [-49.3289, -25.4833],
+          [-49.3400, -25.4944],
+          [-49.3511, -25.5055],
+          [-49.3622, -25.5166],
+          [-49.3733, -25.5277]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "BR-277",
+        "nome": "Rodovia do Atlântico",
+        "classe": "BR",
+        "jurisdicao": "Federal"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-48.5234, -25.5167],
+          [-48.7456, -25.4800],
+          [-49.0789, -25.4500],
+          [-49.4112, -25.4200],
+          [-49.7445, -25.3900],
+          [-50.0778, -25.3600],
+          [-50.4111, -25.3300],
+          [-50.7444, -25.3000],
+          [-51.0777, -25.2700],
+          [-51.4110, -25.2400],
+          [-51.7443, -25.2100],
+          [-52.0776, -25.1800],
+          [-52.4109, -25.1500],
+          [-52.7442, -25.1200],
+          [-53.0775, -25.0900],
+          [-53.4108, -25.0600],
+          [-53.7441, -25.0300],
+          [-53.8552, -25.0167]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "BR-369",
+        "nome": "Rodovia Mário Andreazza",
+        "classe": "BR",
+        "jurisdicao": "Federal"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-50.1234, -23.3056],
+          [-50.2345, -23.3167],
+          [-50.3456, -23.3278],
+          [-50.4567, -23.3389],
+          [-50.5678, -23.3500],
+          [-50.6789, -23.3611],
+          [-50.7890, -23.3722],
+          [-50.9001, -23.3833],
+          [-51.0112, -23.3944],
+          [-51.1223, -23.4055],
+          [-51.2334, -23.4166],
+          [-51.3445, -23.4277],
+          [-51.4556, -23.4388],
+          [-51.5667, -23.4499],
+          [-51.6778, -23.4610],
+          [-51.7889, -23.4721],
+          [-51.9000, -23.4832],
+          [-52.0111, -23.4943],
+          [-52.1222, -23.5054],
+          [-52.2333, -23.5165],
+          [-52.3444, -23.5276],
+          [-52.4555, -23.5387],
+          [-52.5666, -23.5498],
+          [-52.6777, -23.5609],
+          [-52.7888, -23.5720],
+          [-52.8999, -23.5831]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "BR-376",
+        "nome": "Rodovia do Café",
+        "classe": "BR",
+        "jurisdicao": "Federal"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-49.2734, -25.4278],
+          [-49.3845, -25.3167],
+          [-49.4956, -25.2056],
+          [-49.6067, -25.0945],
+          [-49.7178, -24.9834],
+          [-49.8289, -24.8723],
+          [-49.9400, -24.7612],
+          [-50.0511, -24.6501],
+          [-50.1622, -24.5390],
+          [-50.2733, -24.4279],
+          [-50.3844, -24.3168],
+          [-50.4955, -24.2057],
+          [-50.6066, -24.0946],
+          [-50.7177, -23.9835],
+          [-50.8288, -23.8724],
+          [-50.9399, -23.7613],
+          [-51.0510, -23.6502],
+          [-51.1621, -23.5391],
+          [-51.2732, -23.4280]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "BR-487",
+        "nome": "Rodovia Arlindo Luz",
+        "classe": "BR",
+        "jurisdicao": "Federal"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-52.3678, -23.4167],
+          [-52.4789, -23.4278],
+          [-52.5890, -23.4389],
+          [-52.7001, -23.4500],
+          [-52.8112, -23.4611],
+          [-52.9223, -23.4722],
+          [-53.0334, -23.4833],
+          [-53.1445, -23.4944],
+          [-53.2556, -23.5055],
+          [-53.3667, -23.5166],
+          [-53.4778, -23.5277],
+          [-53.5889, -23.5388],
+          [-53.7000, -23.5499],
+          [-53.8111, -23.5610]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "PR-092",
+        "nome": "Estrada da Graciosa",
+        "classe": "PR",
+        "jurisdicao": "Estadual"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-49.2734, -25.4278],
+          [-49.1623, -25.3167],
+          [-49.0512, -25.2056],
+          [-48.9401, -25.0945],
+          [-48.8290, -24.9834],
+          [-48.7179, -24.8723],
+          [-48.6068, -24.7612],
+          [-48.4957, -24.6501],
+          [-48.3846, -24.5390]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "PR-151",
+        "nome": "Rodovia Deputado Leônidas Pacheco Ferreira",
+        "classe": "PR",
+        "jurisdicao": "Estadual"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-50.8456, -23.3678],
+          [-50.9567, -23.4789],
+          [-51.0678, -23.5890],
+          [-51.1789, -23.7001],
+          [-51.2890, -23.8112],
+          [-51.4001, -23.9223],
+          [-51.5112, -24.0334],
+          [-51.6223, -24.1445],
+          [-51.7334, -24.2556],
+          [-51.8445, -24.3667],
+          [-51.9556, -24.4778],
+          [-52.0667, -24.5889],
+          [-52.1778, -24.7000]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "PR-160",
+        "nome": "Rodovia dos Minérios",
+        "classe": "PR",
+        "jurisdicao": "Estadual"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-49.5234, -25.5167],
+          [-49.6345, -25.6278],
+          [-49.7456, -25.7389],
+          [-49.8567, -25.8500],
+          [-49.9678, -25.9611],
+          [-50.0789, -26.0722],
+          [-50.1890, -26.1833],
+          [-50.3001, -26.2944]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "PR-170",
+        "nome": "Rodovia Deputado Leopoldo Jacomel",
+        "classe": "PR",
+        "jurisdicao": "Estadual"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-49.2734, -25.4278],
+          [-49.3845, -25.5389],
+          [-49.4956, -25.6500],
+          [-49.6067, -25.7611],
+          [-49.7178, -25.8722],
+          [-49.8289, -25.9833],
+          [-49.9400, -26.0944]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "PR-180",
+        "nome": "Rodovia do Xisto",
+        "classe": "PR",
+        "jurisdicao": "Estadual"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-50.0890, -24.9123],
+          [-50.2001, -25.0234],
+          [-50.3112, -25.1345],
+          [-50.4223, -25.2456],
+          [-50.5334, -25.3567],
+          [-50.6445, -25.4678],
+          [-50.7556, -25.5789],
+          [-50.8667, -25.6890]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "PR-218",
+        "nome": "Rodovia Deputado João Leopoldo Jacomel",
+        "classe": "PR",
+        "jurisdicao": "Estadual"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-51.2789, -23.2756],
+          [-51.3890, -23.3867],
+          [-51.5001, -23.4978],
+          [-51.6112, -23.6089],
+          [-51.7223, -23.7200],
+          [-51.8334, -23.8311],
+          [-51.9445, -23.9422]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "PR-239",
+        "nome": "Rodovia Deputado Ricardo Zanlorenzi",
+        "classe": "PR",
+        "jurisdicao": "Estadual"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-52.6123, -23.6634],
+          [-52.7234, -23.7745],
+          [-52.8345, -23.8856],
+          [-52.9456, -23.9967],
+          [-53.0567, -24.1078],
+          [-53.1678, -24.2189],
+          [-53.2789, -24.3300]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "PR-323",
+        "nome": "Rodovia Deputado Dario Lins e Silva",
+        "classe": "PR",
+        "jurisdicao": "Estadual"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-51.2789, -23.2756],
+          [-51.1678, -23.1645],
+          [-51.0567, -23.0534],
+          [-50.9456, -22.9423],
+          [-50.8345, -22.8312],
+          [-50.7234, -22.7201],
+          [-50.6123, -22.6090]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "PR-340",
+        "nome": "Rodovia Deputado Aníbal Khury",
+        "classe": "PR",
+        "jurisdicao": "Estadual"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-50.6456, -23.1789],
+          [-50.5345, -23.0678],
+          [-50.4234, -22.9567],
+          [-50.3123, -22.8456],
+          [-50.2012, -22.7345],
+          [-50.0901, -22.6234]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "PR-364",
+        "nome": "Rodovia Deputado Cunha Pereira",
+        "classe": "PR",
+        "jurisdicao": "Estadual"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-52.3789, -24.0456],
+          [-52.2678, -23.9345],
+          [-52.1567, -23.8234],
+          [-52.0456, -23.7123],
+          [-51.9345, -23.6012],
+          [-51.8234, -23.4901],
+          [-51.7123, -23.3790]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "PR-407",
+        "nome": "Rodovia Deputado Ruy Cunha",
+        "classe": "PR",
+        "jurisdicao": "Estadual"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-48.7123, -25.4234],
+          [-48.8234, -25.5345],
+          [-48.9345, -25.6456],
+          [-49.0456, -25.7567],
+          [-49.1567, -25.8678],
+          [-49.2678, -25.9789]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "PR-412",
+        "nome": "Rodovia Deputado Luiz Gabriel Sampaio",
+        "classe": "PR",
+        "jurisdicao": "Estadual"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-49.3890, -25.5234],
+          [-49.5001, -25.6345],
+          [-49.6112, -25.7456],
+          [-49.7223, -25.8567],
+          [-49.8334, -25.9678],
+          [-49.9445, -26.0789]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "PR-418",
+        "nome": "Rodovia dos Papagaios",
+        "classe": "PR",
+        "jurisdicao": "Estadual"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-49.0567, -25.3012],
+          [-49.1678, -25.4123],
+          [-49.2789, -25.5234],
+          [-49.3890, -25.6345],
+          [-49.5001, -25.7456]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "PR-427",
+        "nome": "Rodovia do Rocio",
+        "classe": "PR",
+        "jurisdicao": "Estadual"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-49.2234, -25.2890],
+          [-49.3345, -25.4001],
+          [-49.4456, -25.5112],
+          [-49.5567, -25.6223],
+          [-49.6678, -25.7334]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "PR-445",
+        "nome": "Rodovia Deputado Leopoldo Jacomel",
+        "classe": "PR",
+        "jurisdicao": "Estadual"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-49.5234, -25.4567],
+          [-49.6345, -25.5678],
+          [-49.7456, -25.6789],
+          [-49.8567, -25.7890],
+          [-49.9678, -25.9001]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "PR-508",
+        "nome": "Rodovia Deputado João Batista Dallegrave",
+        "classe": "PR",
+        "jurisdicao": "Estadual"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-52.5456, -25.8789],
+          [-52.6567, -25.9890],
+          [-52.7678, -26.1001],
+          [-52.8789, -26.2112],
+          [-52.9890, -26.3223]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "PR-513",
+        "nome": "Rodovia Deputado Olívio Belich",
+        "classe": "PR",
+        "jurisdicao": "Estadual"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-53.4567, -24.9567],
+          [-53.5678, -25.0678],
+          [-53.6789, -25.1789],
+          [-53.7890, -25.2890],
+          [-53.9001, -25.4001]
+        ]
+      }
+    }
+  ]
+}

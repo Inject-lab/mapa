@@ -1,0 +1,2456 @@
+{
+  "type": "FeatureCollection",
+  "name": "cidades_parana",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Curitiba",
+        "tipo": "Capital",
+        "populacao": 1963726,
+        "codigo_ibge": "4107108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.2734, -25.4278]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Londrina",
+        "tipo": "Sede Municipal",
+        "populacao": 575377,
+        "codigo_ibge": "4113700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.1789, -23.3045]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Maringá",
+        "tipo": "Sede Municipal",
+        "populacao": 430157,
+        "codigo_ibge": "4115200"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.9389, -23.4205]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Ponta Grossa",
+        "tipo": "Sede Municipal",
+        "populacao": 355336,
+        "codigo_ibge": "4119905"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.1619, -25.0945]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Cascavel",
+        "tipo": "Sede Municipal",
+        "populacao": 348051,
+        "codigo_ibge": "4104907"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.4567, -24.9567]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "São José dos Pinhais",
+        "tipo": "Sede Municipal",
+        "populacao": 329058,
+        "codigo_ibge": "4125506"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.2067, -25.5345]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Foz do Iguaçu",
+        "tipo": "Sede Municipal",
+        "populacao": 258823,
+        "codigo_ibge": "4108304"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-54.5778, -25.5478]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Colombo",
+        "tipo": "Sede Municipal",
+        "populacao": 243726,
+        "codigo_ibge": "4105904"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.2234, -25.2890]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Guarapuava",
+        "tipo": "Sede Municipal",
+        "populacao": 183755,
+        "codigo_ibge": "4109401"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.4589, -25.3845]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Paranaguá",
+        "tipo": "Sede Municipal",
+        "populacao": 156174,
+        "codigo_ibge": "4118204"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-48.5234, -25.5167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Araucária",
+        "tipo": "Sede Municipal",
+        "populacao": 144967,
+        "codigo_ibge": "4101804"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.4567, -25.5890]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Toledo",
+        "tipo": "Sede Municipal",
+        "populacao": 143691,
+        "codigo_ibge": "4127700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.7456, -24.7123]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Apucarana",
+        "tipo": "Sede Municipal",
+        "populacao": 136234,
+        "codigo_ibge": "4101408"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.4678, -23.5567]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Pinhais",
+        "tipo": "Sede Municipal",
+        "populacao": 133490,
+        "codigo_ibge": "4119152"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.1923, -25.4445]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Campo Largo",
+        "tipo": "Sede Municipal",
+        "populacao": 132960,
+        "codigo_ibge": "4104253"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.5234, -25.4567]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Arapongas",
+        "tipo": "Sede Municipal",
+        "populacao": 119123,
+        "codigo_ibge": "4101507"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.4234, -23.4123]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Almirante Tamandaré",
+        "tipo": "Sede Municipal",
+        "populacao": 117168,
+        "codigo_ibge": "4100400"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.3234, -25.3456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Umuarama",
+        "tipo": "Sede Municipal",
+        "populacao": 112500,
+        "codigo_ibge": "4128104"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.3167, -23.7667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Paranavaí",
+        "tipo": "Sede Municipal",
+        "populacao": 87875,
+        "codigo_ibge": "4118451"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.4667, -23.0833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Bacacheri",
+        "tipo": "Distrito",
+        "populacao": 0,
+        "codigo_ibge": "4107108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.2456, -25.4012]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Sarandi",
+        "tipo": "Sede Municipal",
+        "populacao": 95362,
+        "codigo_ibge": "4125308"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.8667, -23.4500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Fazenda Rio Grande",
+        "tipo": "Sede Municipal",
+        "populacao": 94537,
+        "codigo_ibge": "4107652"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.3089, -25.6456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Cambé",
+        "tipo": "Sede Municipal",
+        "populacao": 105007,
+        "codigo_ibge": "4103701"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.2789, -23.2756]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Campo Mourão",
+        "tipo": "Sede Municipal",
+        "populacao": 96102,
+        "codigo_ibge": "4104402"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.3789, -24.0456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Cianorte",
+        "tipo": "Sede Municipal",
+        "populacao": 78904,
+        "codigo_ibge": "4105607"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.6123, -23.6634]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Telêmaco Borba",
+        "tipo": "Sede Municipal",
+        "populacao": 78656,
+        "codigo_ibge": "4127106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.6167, -24.3167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Castro",
+        "tipo": "Sede Municipal",
+        "populacao": 70753,
+        "codigo_ibge": "4105003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.0123, -24.7890]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Rolândia",
+        "tipo": "Sede Municipal",
+        "populacao": 64792,
+        "codigo_ibge": "4122404"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.3667, -23.3167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Irati",
+        "tipo": "Sede Municipal",
+        "populacao": 60357,
+        "codigo_ibge": "4111209"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.6333, -25.4667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "União da Vitória",
+        "tipo": "Sede Municipal",
+        "populacao": 57400,
+        "codigo_ibge": "4128203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.0833, -26.2333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Ibiporã",
+        "tipo": "Sede Municipal",
+        "populacao": 52275,
+        "codigo_ibge": "4110001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.0333, -23.2667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Francisco Beltrão",
+        "tipo": "Sede Municipal",
+        "populacao": 91084,
+        "codigo_ibge": "4108403"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.0556, -26.0833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Cornélio Procópio",
+        "tipo": "Sede Municipal",
+        "populacao": 48858,
+        "codigo_ibge": "4106456"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.6456, -23.1789]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Bandeirantes",
+        "tipo": "Sede Municipal",
+        "populacao": 32720,
+        "codigo_ibge": "4102406"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.3678, -23.1123]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Jacarezinho",
+        "tipo": "Sede Municipal",
+        "populacao": 39121,
+        "codigo_ibge": "4111407"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.9667, -23.1500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Santo Antônio da Platina",
+        "tipo": "Sede Municipal",
+        "populacao": 44293,
+        "codigo_ibge": "4123701"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.0833, -23.2833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Assaí",
+        "tipo": "Sede Municipal",
+        "populacao": 16583,
+        "codigo_ibge": "4101903"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.8456, -23.3678]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Cambará",
+        "tipo": "Sede Municipal",
+        "populacao": 23376,
+        "codigo_ibge": "4103602"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.0567, -23.0234]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Andirá",
+        "tipo": "Sede Municipal",
+        "populacao": 19705,
+        "codigo_ibge": "4101101"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.2345, -23.0678]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Joaquim Távora",
+        "tipo": "Sede Municipal",
+        "populacao": 11159,
+        "codigo_ibge": "4112207"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.9333, -23.4833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Ribeirão Claro",
+        "tipo": "Sede Municipal",
+        "populacao": 10636,
+        "codigo_ibge": "4121406"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.7667, -23.1833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Siqueira Campos",
+        "tipo": "Sede Municipal",
+        "populacao": 17825,
+        "codigo_ibge": "4125605"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.9167, -23.7500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Wenceslau Braz",
+        "tipo": "Sede Municipal",
+        "populacao": 19288,
+        "codigo_ibge": "4128500"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.8000, -23.8500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Arapoti",
+        "tipo": "Sede Municipal",
+        "populacao": 26234,
+        "codigo_ibge": "4101606"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.8234, -24.1567]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Jaguariaíva",
+        "tipo": "Sede Municipal",
+        "populacao": 34681,
+        "codigo_ibge": "4111803"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.7000, -24.2500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Sengés",
+        "tipo": "Sede Municipal",
+        "populacao": 19675,
+        "codigo_ibge": "4125407"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.4667, -24.1167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Tomazina",
+        "tipo": "Sede Municipal",
+        "populacao": 8026,
+        "codigo_ibge": "4127809"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.7333, -23.7667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Ibaiti",
+        "tipo": "Sede Municipal",
+        "populacao": 30628,
+        "codigo_ibge": "4109706"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.2167, -23.8333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Curiúva",
+        "tipo": "Sede Municipal",
+        "populacao": 14304,
+        "codigo_ibge": "4107207"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.4567, -24.0234]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Figueira",
+        "tipo": "Sede Municipal",
+        "populacao": 8006,
+        "codigo_ibge": "4107900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.3833, -23.8833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Sapopema",
+        "tipo": "Sede Municipal",
+        "populacao": 6775,
+        "codigo_ibge": "4125100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.6333, -23.9833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Congonhinhas",
+        "tipo": "Sede Municipal",
+        "populacao": 8716,
+        "codigo_ibge": "4106100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.6123, -23.4567]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Abatiá",
+        "tipo": "Sede Municipal",
+        "populacao": 7764,
+        "codigo_ibge": "4100103"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.3089, -23.3045]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Leópolis",
+        "tipo": "Sede Municipal",
+        "populacao": 4316,
+        "codigo_ibge": "4113304"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.7000, -23.0667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Pinhalão",
+        "tipo": "Sede Municipal",
+        "populacao": 6477,
+        "codigo_ibge": "4119103"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.0500, -23.7833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Conselheiro Mairinck",
+        "tipo": "Sede Municipal",
+        "populacao": 4012,
+        "codigo_ibge": "4106209"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.1456, -23.4890]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Carlópolis",
+        "tipo": "Sede Municipal",
+        "populacao": 14446,
+        "codigo_ibge": "4104808"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.7234, -23.4234]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Quatiguá",
+        "tipo": "Sede Municipal",
+        "populacao": 7298,
+        "codigo_ibge": "4120804"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.8667, -23.6167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Salto do Itararé",
+        "tipo": "Sede Municipal",
+        "populacao": 4512,
+        "codigo_ibge": "4123909"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.6167, -23.6333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Barra do Jacaré",
+        "tipo": "Sede Municipal",
+        "populacao": 2634,
+        "codigo_ibge": "4102604"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.3456, -23.1890]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Itambaracá",
+        "tipo": "Sede Municipal",
+        "populacao": 6731,
+        "codigo_ibge": "4111506"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.3833, -23.0333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Nova Fátima",
+        "tipo": "Sede Municipal",
+        "populacao": 9026,
+        "codigo_ibge": "4117206"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.5833, -23.4167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Rancho Alegre",
+        "tipo": "Sede Municipal",
+        "populacao": 4302,
+        "codigo_ibge": "4121208"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.8833, -23.1167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Uraí",
+        "tipo": "Sede Municipal",
+        "populacao": 11472,
+        "codigo_ibge": "4128302"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.8000, -23.1333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Jataizinho",
+        "tipo": "Sede Municipal",
+        "populacao": 12348,
+        "codigo_ibge": "4112009"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.1833, -23.2500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Primeiro de Maio",
+        "tipo": "Sede Municipal",
+        "populacao": 11631,
+        "codigo_ibge": "4120333"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.7833, -22.8500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Sertaneja",
+        "tipo": "Sede Municipal",
+        "populacao": 6107,
+        "codigo_ibge": "4125506"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.9000, -22.8167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Porecatu",
+        "tipo": "Sede Municipal",
+        "populacao": 14838,
+        "codigo_ibge": "4120002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.3833, -22.7500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Florestópolis",
+        "tipo": "Sede Municipal",
+        "populacao": 11279,
+        "codigo_ibge": "4108007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.3833, -22.8167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Miraselva",
+        "tipo": "Sede Municipal",
+        "populacao": 1737,
+        "codigo_ibge": "4115705"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.2833, -22.7167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Alvorada do Sul",
+        "tipo": "Sede Municipal",
+        "populacao": 10461,
+        "codigo_ibge": "4100806"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.2345, -22.7890]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Centenário do Sul",
+        "tipo": "Sede Municipal",
+        "populacao": 10781,
+        "codigo_ibge": "4105201"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.5890, -22.8234]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Lupionópolis",
+        "tipo": "Sede Municipal",
+        "populacao": 4786,
+        "codigo_ibge": "4114005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.1833, -22.7000]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Cafeara",
+        "tipo": "Sede Municipal",
+        "populacao": 2653,
+        "codigo_ibge": "4103404"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.7890, -22.7890]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Colorado",
+        "tipo": "Sede Municipal",
+        "populacao": 25594,
+        "codigo_ibge": "4106001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.9789, -22.7456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Paranacity",
+        "tipo": "Sede Municipal",
+        "populacao": 10798,
+        "codigo_ibge": "4118303"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.1167, -23.3167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Presidente Castelo Branco",
+        "tipo": "Sede Municipal",
+        "populacao": 5099,
+        "codigo_ibge": "4120408"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.0167, -22.8167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "São Carlos do Ivaí",
+        "tipo": "Sede Municipal",
+        "populacao": 7124,
+        "codigo_ibge": "4124020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.0167, -23.3167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Borrazópolis",
+        "tipo": "Sede Municipal",
+        "populacao": 8095,
+        "codigo_ibge": "4103305"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.6234, -23.9345]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Kaloré",
+        "tipo": "Sede Municipal",
+        "populacao": 4804,
+        "codigo_ibge": "4112751"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.6833, -23.8500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Mauá da Serra",
+        "tipo": "Sede Municipal",
+        "populacao": 10976,
+        "codigo_ibge": "4115309"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.1833, -23.9000]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Marumbi",
+        "tipo": "Sede Municipal",
+        "populacao": 4533,
+        "codigo_ibge": "4115002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.1833, -23.7833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Bom Sucesso",
+        "tipo": "Sede Municipal",
+        "populacao": 6532,
+        "codigo_ibge": "4103206"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.0567, -23.7123]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Jandaia do Sul",
+        "tipo": "Sede Municipal",
+        "populacao": 20224,
+        "codigo_ibge": "4111902"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.6333, -23.6000]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Mandaguaçu",
+        "tipo": "Sede Municipal",
+        "populacao": 19463,
+        "codigo_ibge": "4114609"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.6833, -23.3500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Mandaguari",
+        "tipo": "Sede Municipal",
+        "populacao": 33219,
+        "codigo_ibge": "4114708"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.6667, -23.3500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Marialva",
+        "tipo": "Sede Municipal",
+        "populacao": 32951,
+        "codigo_ibge": "4114906"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.7833, -23.4833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Ângulo",
+        "tipo": "Sede Municipal",
+        "populacao": 2917,
+        "codigo_ibge": "4101150"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.8901, -23.1890]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Astorga",
+        "tipo": "Sede Municipal",
+        "populacao": 25398,
+        "codigo_ibge": "4102109"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.6567, -23.2345]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Atalaia",
+        "tipo": "Sede Municipal",
+        "populacao": 3804,
+        "codigo_ibge": "4102208"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.0123, -23.1234]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Flórida",
+        "tipo": "Sede Municipal",
+        "populacao": 2654,
+        "codigo_ibge": "4108106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.9167, -23.6167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Uniflor",
+        "tipo": "Sede Municipal",
+        "populacao": 2456,
+        "codigo_ibge": "4128005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.1500, -23.1500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Itambé",
+        "tipo": "Sede Municipal",
+        "populacao": 6296,
+        "codigo_ibge": "4111605"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.9833, -23.6500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Ivaiporã",
+        "tipo": "Sede Municipal",
+        "populacao": 32815,
+        "codigo_ibge": "4111704"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.6833, -24.2333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Lunardelli",
+        "tipo": "Sede Municipal",
+        "populacao": 5124,
+        "codigo_ibge": "4114104"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.7500, -24.1167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Godoy Moreira",
+        "tipo": "Sede Municipal",
+        "populacao": 3216,
+        "codigo_ibge": "4109302"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.7833, -23.8833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Cambira",
+        "tipo": "Sede Municipal",
+        "populacao": 7825,
+        "codigo_ibge": "4103800"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.5789, -23.5890]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Califórnia",
+        "tipo": "Sede Municipal",
+        "populacao": 7763,
+        "codigo_ibge": "4103503"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.3456, -23.6789]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Lidianópolis",
+        "tipo": "Sede Municipal",
+        "populacao": 3888,
+        "codigo_ibge": "4113403"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.5167, -23.7167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Rio Bom",
+        "tipo": "Sede Municipal",
+        "populacao": 3216,
+        "codigo_ibge": "4121703"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.3833, -23.8167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Grandes Rios",
+        "tipo": "Sede Municipal",
+        "populacao": 6804,
+        "codigo_ibge": "4109609"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.5500, -24.0833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Novo Itacolomi",
+        "tipo": "Sede Municipal",
+        "populacao": 2983,
+        "codigo_ibge": "4117305"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.5167, -24.1833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "São Pedro do Ivaí",
+        "tipo": "Sede Municipal",
+        "populacao": 10716,
+        "codigo_ibge": "4125902"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.8833, -24.0833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Ariranha do Ivaí",
+        "tipo": "Sede Municipal",
+        "populacao": 2679,
+        "codigo_ibge": "4101853"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.3678, -24.2890]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Cândido de Abreu",
+        "tipo": "Sede Municipal",
+        "populacao": 16475,
+        "codigo_ibge": "4104428"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.3456, -24.5678]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Rio Branco do Ivaí",
+        "tipo": "Sede Municipal",
+        "populacao": 3847,
+        "codigo_ibge": "4121802"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.2167, -24.2167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Manoel Ribas",
+        "tipo": "Sede Municipal",
+        "populacao": 13289,
+        "codigo_ibge": "4114807"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.6833, -24.5333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Rosário do Ivaí",
+        "tipo": "Sede Municipal",
+        "populacao": 4883,
+        "codigo_ibge": "4122503"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.1833, -24.2833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Cruzmaltina",
+        "tipo": "Sede Municipal",
+        "populacao": 3135,
+        "codigo_ibge": "4106951"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.4167, -24.0167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Faxinal",
+        "tipo": "Sede Municipal",
+        "populacao": 16314,
+        "codigo_ibge": "4107702"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.2667, -24.1000]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Ortigueira",
+        "tipo": "Sede Municipal",
+        "populacao": 23380,
+        "codigo_ibge": "4117909"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.9500, -24.2000]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Reserva",
+        "tipo": "Sede Municipal",
+        "populacao": 25172,
+        "codigo_ibge": "4121307"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.8333, -24.6000]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Imbaú",
+        "tipo": "Sede Municipal",
+        "populacao": 12333,
+        "codigo_ibge": "4110308"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.8833, -24.4667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Carambeí",
+        "tipo": "Sede Municipal",
+        "populacao": 22049,
+        "codigo_ibge": "4104709"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.0890, -24.9123]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Tibagi",
+        "tipo": "Sede Municipal",
+        "populacao": 20273,
+        "codigo_ibge": "4127205"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.4167, -24.5167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Ventania",
+        "tipo": "Sede Municipal",
+        "populacao": 10796,
+        "codigo_ibge": "4128401"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.2333, -24.2333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Palmeira",
+        "tipo": "Sede Municipal",
+        "populacao": 33843,
+        "codigo_ibge": "4118006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.0167, -25.4333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Imbituva",
+        "tipo": "Sede Municipal",
+        "populacao": 31162,
+        "codigo_ibge": "4110407"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.6167, -25.2333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Teixeira Soares",
+        "tipo": "Sede Municipal",
+        "populacao": 11272,
+        "codigo_ibge": "4127007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.6167, -25.4167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Fernandes Pinheiro",
+        "tipo": "Sede Municipal",
+        "populacao": 5610,
+        "codigo_ibge": "4107801"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.5500, -25.4167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Guamiranga",
+        "tipo": "Sede Municipal",
+        "populacao": 8566,
+        "codigo_ibge": "4109807"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.8833, -25.1167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Prudentópolis",
+        "tipo": "Sede Municipal",
+        "populacao": 51686,
+        "codigo_ibge": "4120606"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.9833, -25.2167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Rebouças",
+        "tipo": "Sede Municipal",
+        "populacao": 14176,
+        "codigo_ibge": "4121109"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.6833, -25.6167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Rio Azul",
+        "tipo": "Sede Municipal",
+        "populacao": 14344,
+        "codigo_ibge": "4121604"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.9167, -25.7500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Mallet",
+        "tipo": "Sede Municipal",
+        "populacao": 13038,
+        "codigo_ibge": "4114500"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.6500, -25.8833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Dorizon",
+        "tipo": "Sede Municipal",
+        "populacao": 2418,
+        "codigo_ibge": "4107504"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.7167, -25.7167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Paulo Frontin",
+        "tipo": "Sede Municipal",
+        "populacao": 7149,
+        "codigo_ibge": "4118402"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.8000, -25.9333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "São João do Triunfo",
+        "tipo": "Sede Municipal",
+        "populacao": 14585,
+        "codigo_ibge": "4124707"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.4833, -25.5833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Antônio Olinto",
+        "tipo": "Sede Municipal",
+        "populacao": 7316,
+        "codigo_ibge": "4101309"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.0789, -25.7456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "São Mateus do Sul",
+        "tipo": "Sede Municipal",
+        "populacao": 42888,
+        "codigo_ibge": "4125001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.3833, -25.8833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Lapa",
+        "tipo": "Sede Municipal",
+        "populacao": 48163,
+        "codigo_ibge": "4113205"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.7167, -25.7667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Porto Amazonas",
+        "tipo": "Sede Municipal",
+        "populacao": 4636,
+        "codigo_ibge": "4120101"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.8833, -25.5500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Balsa Nova",
+        "tipo": "Sede Municipal",
+        "populacao": 12204,
+        "codigo_ibge": "4102307"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.6345, -25.5789]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Contenda",
+        "tipo": "Sede Municipal",
+        "populacao": 17173,
+        "codigo_ibge": "4106308"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.5123, -25.6789]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Quitandinha",
+        "tipo": "Sede Municipal",
+        "populacao": 17089,
+        "codigo_ibge": "4120903"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.5167, -25.8667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Mandirituba",
+        "tipo": "Sede Municipal",
+        "populacao": 25154,
+        "codigo_ibge": "4114708"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.3333, -25.7833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Tijucas do Sul",
+        "tipo": "Sede Municipal",
+        "populacao": 15540,
+        "codigo_ibge": "4127304"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.2000, -25.9333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Agudos do Sul",
+        "tipo": "Sede Municipal",
+        "populacao": 8816,
+        "codigo_ibge": "4100301"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.3456, -25.7890]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Campo do Tenente",
+        "tipo": "Sede Municipal",
+        "populacao": 7125,
+        "codigo_ibge": "4104204"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.6456, -25.9678]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Piên",
+        "tipo": "Sede Municipal",
+        "populacao": 12235,
+        "codigo_ibge": "4119004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.4167, -26.1500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Rio Negro",
+        "tipo": "Sede Municipal",
+        "populacao": 32412,
+        "codigo_ibge": "4121901"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.8000, -26.1000]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "General Carneiro",
+        "tipo": "Sede Municipal",
+        "populacao": 13403,
+        "codigo_ibge": "4109104"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.3167, -26.4167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Bituruna",
+        "tipo": "Sede Municipal",
+        "populacao": 16029,
+        "codigo_ibge": "4102901"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.5456, -26.1678]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Cruz Machado",
+        "tipo": "Sede Municipal",
+        "populacao": 18020,
+        "codigo_ibge": "4107009"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.3789, -26.0123]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Paula Freitas",
+        "tipo": "Sede Municipal",
+        "populacao": 12122,
+        "codigo_ibge": "4118501"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-50.9833, -26.2167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Porto Vitória",
+        "tipo": "Sede Municipal",
+        "populacao": 4140,
+        "codigo_ibge": "4120200"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.2333, -26.1833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Clevelândia",
+        "tipo": "Sede Municipal",
+        "populacao": 17533,
+        "codigo_ibge": "4105805"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.3456, -26.4123]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Coronel Domingos Soares",
+        "tipo": "Sede Municipal",
+        "populacao": 7065,
+        "codigo_ibge": "4106506"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.3123, -25.6456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Honório Serpa",
+        "tipo": "Sede Municipal",
+        "populacao": 5769,
+        "codigo_ibge": "4110506"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.2167, -26.0833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Mangueirinha",
+        "tipo": "Sede Municipal",
+        "populacao": 17589,
+        "codigo_ibge": "4114906"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.1667, -25.9333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Palmas",
+        "tipo": "Sede Municipal",
+        "populacao": 42888,
+        "codigo_ibge": "4117800"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.9833, -26.4833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Pato Branco",
+        "tipo": "Sede Municipal",
+        "populacao": 83843,
+        "codigo_ibge": "4118402"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.6667, -26.2333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Saudade do Iguaçu",
+        "tipo": "Sede Municipal",
+        "populacao": 5769,
+        "codigo_ibge": "4125209"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.5167, -25.8833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Vitorino",
+        "tipo": "Sede Municipal",
+        "populacao": 6769,
+        "codigo_ibge": "4128609"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.7167, -26.0833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Chopinzinho",
+        "tipo": "Sede Municipal",
+        "populacao": 19769,
+        "codigo_ibge": "4105508"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.5456, -25.8789]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Coronel Vivida",
+        "tipo": "Sede Municipal",
+        "populacao": 21668,
+        "codigo_ibge": "4106803"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.5667, -25.9667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Itapejara d'Oeste",
+        "tipo": "Sede Municipal",
+        "populacao": 11769,
+        "codigo_ibge": "4111902"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.8456, -25.9789]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Verê",
+        "tipo": "Sede Municipal",
+        "populacao": 7769,
+        "codigo_ibge": "4128500"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.9167, -25.8333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Sulina",
+        "tipo": "Sede Municipal",
+        "populacao": 3123,
+        "codigo_ibge": "4126504"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.1456, -25.6789]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Dois Vizinhos",
+        "tipo": "Sede Municipal",
+        "populacao": 38567,
+        "codigo_ibge": "4107520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.0567, -25.7345]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "São Jorge d'Oeste",
+        "tipo": "Sede Municipal",
+        "populacao": 9456,
+        "codigo_ibge": "4124806"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.1789, -25.7123]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Nova Prata do Iguaçu",
+        "tipo": "Sede Municipal",
+        "populacao": 11234,
+        "codigo_ibge": "4117404"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.2890, -25.6456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Salto do Lontra",
+        "tipo": "Sede Municipal",
+        "populacao": 14123,
+        "codigo_ibge": "4124004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.2345, -25.9678]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Enéas Marques",
+        "tipo": "Sede Municipal",
+        "populacao": 6789,
+        "codigo_ibge": "4107603"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.3456, -25.9123]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Flor da Serra do Sul",
+        "tipo": "Sede Municipal",
+        "populacao": 4567,
+        "codigo_ibge": "4108205"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.3789, -25.8456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Bom Jesus do Sul",
+        "tipo": "Sede Municipal",
+        "populacao": 3890,
+        "codigo_ibge": "4103107"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.4567, -25.7890]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Realeza",
+        "tipo": "Sede Municipal",
+        "populacao": 16789,
+        "codigo_ibge": "4121000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.5345, -25.7678]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Ampére",
+        "tipo": "Sede Municipal",
+        "populacao": 18234,
+        "codigo_ibge": "4101002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.4789, -25.9123]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Santa Izabel do Oeste",
+        "tipo": "Sede Municipal",
+        "populacao": 13456,
+        "codigo_ibge": "4123800"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.4890, -25.8234]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Capanema",
+        "tipo": "Sede Municipal",
+        "populacao": 19123,
+        "codigo_ibge": "4104600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.8123, -25.6789]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Planalto",
+        "tipo": "Sede Municipal",
+        "populacao": 13567,
+        "codigo_ibge": "4119301"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.7890, -25.7234]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Pérola d'Oeste",
+        "tipo": "Sede Municipal",
+        "populacao": 7234,
+        "codigo_ibge": "4118709"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.8567, -25.8456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Pranchita",
+        "tipo": "Sede Municipal",
+        "populacao": 5890,
+        "codigo_ibge": "4120309"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.7456, -25.9678]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Santo Antônio do Sudoeste",
+        "tipo": "Sede Municipal",
+        "populacao": 18789,
+        "codigo_ibge": "4123602"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.7234, -26.0789]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Barracão",
+        "tipo": "Sede Municipal",
+        "populacao": 10456,
+        "codigo_ibge": "4102703"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.6456, -26.2567]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Bom Sucesso do Sul",
+        "tipo": "Sede Municipal",
+        "populacao": 3567,
+        "codigo_ibge": "4103305"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.5789, -26.1234]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Renascença",
+        "tipo": "Sede Municipal",
+        "populacao": 6789,
+        "codigo_ibge": "4121208"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.8234, -26.1678]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Marmeleiro",
+        "tipo": "Sede Municipal",
+        "populacao": 14123,
+        "codigo_ibge": "4115101"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-53.0890, -26.1345]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Candói",
+        "tipo": "Sede Municipal",
+        "populacao": 15234,
+        "codigo_ibge": "4104527"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.7678, -25.5890]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Cantagalo",
+        "tipo": "Sede Municipal",
+        "populacao": 13456,
+        "codigo_ibge": "4104626"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.3890, -25.3456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Goioxim",
+        "tipo": "Sede Municipal",
+        "populacao": 7890,
+        "codigo_ibge": "4109203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.5567, -25.2123]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Laranjeiras do Sul",
+        "tipo": "Sede Municipal",
+        "populacao": 30567,
+        "codigo_ibge": "4113106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.4167, -25.4000]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Marquinho",
+        "tipo": "Sede Municipal",
+        "populacao": 4890,
+        "codigo_ibge": "4115051"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.2890, -25.2678]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Nova Laranjeiras",
+        "tipo": "Sede Municipal",
+        "populacao": 11234,
+        "codigo_ibge": "4117255"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.5890, -25.3234]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Quedas do Iguaçu",
+        "tipo": "Sede Municipal",
+        "populacao": 32567,
+        "codigo_ibge": "4120705"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.9123, -25.4567]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Reserva do Iguaçu",
+        "tipo": "Sede Municipal",
+        "populacao": 7456,
+        "codigo_ibge": "4121356"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.0234, -25.8345]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Rio Bonito do Iguaçu",
+        "tipo": "Sede Municipal",
+        "populacao": 13789,
+        "codigo_ibge": "4121505"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.4678, -25.4890]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Virmond",
+        "tipo": "Sede Municipal",
+        "populacao": 4123,
+        "codigo_ibge": "4128534"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-52.2345, -25.3789]
+      }
+    }
+  ]
+}

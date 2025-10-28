@@ -1,0 +1,1 @@
+export { CNPJSearch } from './CNPJSearch'
