@@ -6,6 +6,29 @@ import { Toaster } from 'sonner'
 import App from './App.tsx'
 import './index.css'
 
+// Suprime logs de tiles abortados durante zoom/pan no ambiente de desenvolvimento
+if ((import.meta as any).env?.DEV) {
+  const originalError = console.error;
+  console.error = (...args: any[]) => {
+    const msg = args?.[0] ? String(args[0]) : '';
+    const isTileAbort = msg.includes('net::ERR_ABORTED') && (msg.includes('/tiles/') || msg.includes('virtualearth.net') || msg.includes('mapbox.com'));
+    if (isTileAbort) return;
+    originalError(...args);
+  };
+  window.addEventListener(
+    'error',
+    (e: any) => {
+      const src = (e?.target as any)?.src || '';
+      const isTileAbort = String(e?.message || '').includes('ERR_ABORTED') && (src.includes('/tiles/') || src.includes('virtualearth.net') || src.includes('mapbox.com'));
+      if (isTileAbort) {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+      }
+    },
+    true
+  );
+}
+
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {

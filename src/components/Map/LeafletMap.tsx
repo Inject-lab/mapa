@@ -1,4 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
+import { Layers } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { MAPBOX_TOKEN } from '@/lib/mapbox';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Unit, SearchFilters } from '../../types';
@@ -31,7 +34,10 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({
   const mapInstanceRef = useRef<L.Map | null>(null);
   const markersRef = useRef<L.Marker[]>([]);
   const paranaLayerRef = useRef<L.GeoJSON | null>(null);
+  const baseLayerRef = useRef<L.TileLayer | null>(null);
+  const satelliteLayerRef = useRef<L.TileLayer | null>(null);
   const [mapReady, setMapReady] = useState(false);
+  const [isSatellite, setIsSatellite] = useState(false);
 
   // Buscar unidades usando o hook
   const { data: units = [] } = useUnits(filters);
@@ -58,17 +64,116 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({
     const map = L.map(mapRef.current, {
       center: [-24.9, -51.5],
       zoom: 7,
-      minZoom: 6, // Zoom mínimo ajustado para limitar visualização máxima a 50ml
-      maxZoom: 17, // Zoom máximo limitado a 300ft para reduzir logs
-      zoomControl: true
+      minZoom: 6,
+      maxZoom: 18,
+      zoomControl: true,
+      // Usar SVG renderer padrão para evitar erros de Canvas (_ctx undefined)
+      zoomAnimation: true,
+      fadeAnimation: true,
+      zoomSnap: 0.25,
+      zoomDelta: 0.5,
+      wheelDebounceTime: 80, // suaviza rolagem e evita spam de zoom
+      // Limita navegação ao PR com margem para evitar 'corte' nas bordas em zoom alto
+      maxBounds: L.latLngBounds([-27.2, -55.6], [-21.8, -47.2]),
+      maxBoundsViscosity: 0.6,
     });
 
     // Base raster colorida e vibrante (Carto Voyager)
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+    const baseLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
       attribution: '© OpenStreetMap contributors, © CARTO',
       subdomains: 'abcd',
-      opacity: 1.0
-    }).addTo(map);
+      opacity: 1.0,
+      updateWhenIdle: true,
+            updateInterval: 150,
+            keepBuffer: 2,
+    });
+    baseLayer.addTo(map);
+    baseLayerRef.current = baseLayer;
+
+    // Camada satélite (Mapbox Satellite Streets) - melhor qualidade e estabilidade
+    const satelliteProvider = (import.meta as any).env?.VITE_SATELLITE_PROVIDER || 'esri';
+    const mapTilerKey = (import.meta as any).env?.VITE_MAPTILER_KEY;
+    const bingKey = (import.meta as any).env?.VITE_BING_MAPS_KEY;
+
+    class BingTileLayer extends L.TileLayer {
+      private apiKey: string;
+      constructor(apiKey: string, options: L.TileLayerOptions) {
+        super('', options);
+        this.apiKey = apiKey;
+      }
+      private quadKey(x: number, y: number, z: number): string {
+        let quad = '';
+        for (let i = z; i > 0; i--) {
+          let digit = 0;
+          const mask = 1 << (i - 1);
+          if ((x & mask) !== 0) digit++;
+          if ((y & mask) !== 0) digit += 2;
+          quad += digit.toString();
+        }
+        return quad;
+      }
+      // coords has x, y, z
+      getTileUrl(coords: any): string {
+        const qk = this.quadKey(coords.x, coords.y, coords.z);
+        // Use subdomínio t0 para simplicidade; pode alternar entre t0..t3
+        return `https://ecn.t0.tiles.virtualearth.net/tiles/a${qk}.jpeg?g=129&mkt=pt-BR&key=${this.apiKey}`;
+      }
+    }
+
+    const satelliteLayer =
+      satelliteProvider === 'bing' && bingKey
+        ? new BingTileLayer(bingKey, {
+            attribution: '© Bing, © Microsoft',
+            opacity: 1.0,
+            tileSize: 256,
+            maxZoom: 19,
+            detectRetina: false,
+            updateWhenIdle: true,
+            updateInterval: 200,
+            keepBuffer: 2,
+            maxNativeZoom: 18,
+            crossOrigin: true,
+            noWrap: true,
+          })
+        : satelliteProvider === 'esri'
+        ? L.tileLayer(
+            'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+            {
+              attribution:
+                'Tiles © Esri — Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community',
+              opacity: 1.0,
+              tileSize: 256,
+              maxZoom: 19,
+              detectRetina: false,
+              updateWhenIdle: true,
+              updateInterval: 200,
+              keepBuffer: 2,
+              maxNativeZoom: 18,
+              crossOrigin: true,
+              noWrap: true,
+            }
+          )
+        : L.tileLayer(
+            mapTilerKey
+              ? `https://api.maptiler.com/tiles/satellite/{z}/{x}/{y}.jpg?key=${mapTilerKey}`
+              : `https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v12/tiles/256/{z}/{x}/{y}?access_token=${MAPBOX_TOKEN}`,
+            {
+              attribution: mapTilerKey
+                ? '© MapTiler © OpenStreetMap'
+                : '© Mapbox © OpenStreetMap | Imagens: Maxar, Earthstar Geographics, USDA, USGS, AeroGRID, IGN',
+              opacity: 1.0,
+              tileSize: 256,
+              maxZoom: 19,
+              detectRetina: false, // reduz requisições em dispositivos retina
+              updateWhenIdle: true,
+              updateInterval: 200,
+              keepBuffer: 2,
+              maxNativeZoom: 18,
+              crossOrigin: true,
+              noWrap: true,
+            }
+          );
+    satelliteLayerRef.current = satelliteLayer;
 
     // Adicionar contorno do Paraná com fronteiras reais (não retangular)
     console.log('=== DEBUG PARANÁ ===');
@@ -144,55 +249,75 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({
               iconAnchor: [4, 4],
             })
           });
-          
-          const popupDiv = document.createElement('div');
-          popupDiv.className = 'city-popup';
-          popupDiv.style.cssText = `
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            min-width: 200px;
-          `;
-          
-          popupDiv.innerHTML = `
-            <div style="
-              background: linear-gradient(135deg, #3b82f6, #1d4ed8);
-              color: white;
-              padding: 12px;
-              margin: -12px -12px 12px -12px;
-              border-radius: 8px 8px 0 0;
-            ">
-              <h3 style="
-                margin: 0; 
-                font-size: 16px; 
-                font-weight: 700;
-                text-shadow: 0 1px 2px rgba(0,0,0,0.2);
-              ">${nome}</h3>
-            </div>
-            
-            <div style="padding: 4px;">
-              <div style="margin-bottom: 8px; padding: 6px; background: #f8fafc; border-radius: 6px;">
-                <span style="font-size: 11px; color: #64748b; font-weight: 500;">TIPO</span><br>
-                <span style="font-size: 13px; color: #1e293b; font-weight: 600;">${tipo}</span>
+          // Criação preguiçosa do popup somente ao clicar (reduz DOM inicial)
+          cityMarker.on('click', () => {
+            const popupDiv = document.createElement('div');
+            popupDiv.className = 'city-popup';
+            popupDiv.style.cssText = `
+              font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+              min-width: 200px;
+            `;
+            popupDiv.innerHTML = `
+              <div style="
+                background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+                color: white;
+                padding: 12px;
+                margin: -12px -12px 12px -12px;
+                border-radius: 8px 8px 0 0;
+              ">
+                <h3 style="
+                  margin: 0; 
+                  font-size: 16px; 
+                  font-weight: 700;
+                  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+                ">${nome}</h3>
               </div>
               
-              <div style="margin-bottom: 8px; padding: 6px; background: #f8fafc; border-radius: 6px;">
-                <span style="font-size: 11px; color: #64748b; font-weight: 500;">POPULAÇÃO</span><br>
-                <span style="font-size: 13px; color: #1e293b; font-weight: 600;">${populacao.toLocaleString()} habitantes</span>
+              <div style="padding: 4px;">
+                <div style="margin-bottom: 8px; padding: 6px; background: #f8fafc; border-radius: 6px;">
+                  <span style="font-size: 11px; color: #64748b; font-weight: 500;">TIPO</span><br>
+                  <span style="font-size: 13px; color: #1e293b; font-weight: 600;">${tipo}</span>
+                </div>
+                
+                <div style="margin-bottom: 8px; padding: 6px; background: #f8fafc; border-radius: 6px;">
+                  <span style="font-size: 11px; color: #64748b; font-weight: 500;">POPULAÇÃO</span><br>
+                  <span style="font-size: 13px; color: #1e293b; font-weight: 600;">${populacao.toLocaleString()} habitantes</span>
+                </div>
+                
+                <div style="padding: 6px; background: #f8fafc; border-radius: 6px;">
+                  <span style="font-size: 11px; color: #64748b; font-weight: 500;">CÓDIGO IBGE</span><br>
+                  <span style="font-size: 13px; color: #1e293b; font-weight: 600;">${feature.properties?.codigo_ibge || 'N/A'}</span>
+                </div>
               </div>
-              
-              <div style="padding: 6px; background: #f8fafc; border-radius: 6px;">
-                <span style="font-size: 11px; color: #64748b; font-weight: 500;">CÓDIGO IBGE</span><br>
-                <span style="font-size: 13px; color: #1e293b; font-weight: 600;">${feature.properties?.codigo_ibge || 'N/A'}</span>
-              </div>
-            </div>
-          `;
-          
-          cityMarker.bindPopup(popupDiv);
+            `;
+            cityMarker.bindPopup(popupDiv).openPopup();
+          });
           cityMarkersGroup.addLayer(cityMarker);
         });
-        
-        cityMarkersGroup.addTo(map);
+        // Mostrar cidade apenas em zoom alto para reduzir custo
+        const updateCityLayerVisibility = () => {
+          const z = map.getZoom();
+          if (z >= 9) {
+            if (!map.hasLayer(cityMarkersGroup)) map.addLayer(cityMarkersGroup);
+          } else {
+            if (map.hasLayer(cityMarkersGroup)) map.removeLayer(cityMarkersGroup);
+          }
+        };
+        updateCityLayerVisibility();
+        map.on('zoomend', updateCityLayerVisibility);
       }
     };
+
+    // Overlay de zoom para sinalizar carregamento e evitar travamentos visuais
+    map.on('zoomstart', () => {
+      const container = map.getContainer();
+      container.classList.add('zooming');
+    });
+    map.on('zoomend', () => {
+      const container = map.getContainer();
+      // pequeno delay para permitir carregamento dos tiles
+      setTimeout(() => container.classList.remove('zooming'), 220);
+    });
 
     initializeLayers();
 
@@ -207,6 +332,23 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({
       }
     };
   }, []);
+
+  // Alternar base entre padrão e satélite
+  useEffect(() => {
+    if (!mapInstanceRef.current || !baseLayerRef.current || !satelliteLayerRef.current) return;
+
+    const map = mapInstanceRef.current;
+    const base = baseLayerRef.current;
+    const sat = satelliteLayerRef.current;
+
+    if (isSatellite) {
+      if (map.hasLayer(base)) map.removeLayer(base);
+      if (!map.hasLayer(sat)) sat.addTo(map);
+    } else {
+      if (map.hasLayer(sat)) map.removeLayer(sat);
+      if (!map.hasLayer(base)) base.addTo(map);
+    }
+  }, [isSatellite]);
 
   // Atualizar marcadores das unidades
   useEffect(() => {
@@ -514,7 +656,21 @@ export const LeafletMap: React.FC<LeafletMapProps> = ({
   return (
     <div className="relative w-full h-full">
       <div ref={mapRef} className="w-full h-full" />
-      
+
+      {/* Botão de alternância de camada */}
+      <div className="absolute top-4 right-4 z-[1000]">
+        <Button
+          variant="outline"
+          size="sm"
+          onClick={() => setIsSatellite((v) => !v)}
+          className="gap-2 bg-white/75 dark:bg-black/40 backdrop-blur-sm hover:bg-white/90 dark:hover:bg-black/60 border border-gray-200/70 shadow-md rounded-full"
+          title={isSatellite ? 'Exibir mapa padrão' : 'Exibir mapa satélite'}
+        >
+          <Layers className="h-4 w-4" />
+          {isSatellite ? 'Satélite' : 'Padrão'}
+        </Button>
+      </div>
+
       {/* Contador de unidades - Redesenhado */}
       <div className="absolute bottom-4 left-4 z-[1000] bg-white/95 backdrop-blur-sm rounded-xl shadow-xl border border-gray-200 px-4 py-3">
         <div className="flex items-center gap-2">
